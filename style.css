@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Slabo+27px|Lora|Source+Sans+Pro|Droid+Serif);
+
+/* github repoistory: https://github.com/staffanhallgren/csszengarden.git */
+
+body {
+  margin-top: 0;
+}
+
+h1 {
+  background-image: url('christredeemersmaller.png');
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 5em;
+  height: 700px;
+  line-height: 200px;
+  margin: 0 -70px 0 -70px;
+  padding-bottom: 1%;;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul li {
+  list-style: none;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+p a {
+  color: #A28351;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
+
+footer a {
+  color: #A28351;
+  text-decoration: none;
+}
+
+.design-selection h3 {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+  
+.design-archives h3 {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.zen-resources h3 {
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.aside {
+  text-align: center;
+}
+
+.page-wrapper {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.designer-name {
+  font-family: monospace;
+}
+
+.wrapper {
+  float: left;
+}
+
+.design-selection {
+  background-image: none;
+}
+
+[role=contentinfo] {
+  font-size: 1.2em;
+}
+  
+
+
+
+@media (min-width: 768px) {
+  
+  body {
+  margin: 0 70px 0 70px;
+  }
+  
+  footer {
+    text-align: right;
+  }
+  
+  .page-wrapper {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  .design-selection h3 {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+  
+  .design-archives h3 {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+
+  .zen-resources h3 {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+  
+  .summary {
+    border-right: 2px solid black;
+    float: left;
+    line-height: 150%;
+    padding-right: 0.5%;
+    width: 69%;
+  }
+  
+  .preamble {
+    border-top: 1px solid black;
+    border-right: 2px solid black;
+    float: left;
+    line-height: 150%;
+    padding-right: 0.5%;
+    width: 69%;
+  }
+  
+  .requirements {
+    float: right;
+  }
+  
+  .participation {
+    border-top: 1px solid black;
+  }
+  
+  .benefits {
+    border-top: 1px solid black;
+  }
+  
+  .requirements {
+    border-top: 1px solid black;
+  }
+  
+  .main {
+    border-top: 1px solid black;
+    border-right: 2px solid black;
+    float: left;
+    line-height: 150%;
+    padding-right: 0.5%;
+    width: 69%;
+  }
+  
+  .wrapper {
+    float: right;
+    margin: 2% 0% 0% 0%;
+    position: absolute;
+    right: 0;
+    top: 700px;
+    width: 32.5%;
+  }
+  
+  .design-selection {
+    background-image: url(copacabanaboardwalk.png);
+    height: 1200px;
+    letter-spacing: 1px;
+    line-height: 200%;
+    margin: 0px 0px -1250px 0px;
+    padding-top: 50%;
+  }
+  
+  .design-archives {
+    margin: 0px 0px 1350px 0;   
+  }
+  
+  .zen-resources {
+    padding-right: 40px;
+    text-align: center;
+  }
+  
+  [role=contentinfo] {
+    border-top: 1px solid black;
+    font-size: 1.2em;
+    margin-bottom: -20px;
+    padding-top: 70px;
+  }
+  
+  [role=contentinfo] a {
+    font-family: sans-serif;
+  }
+}
